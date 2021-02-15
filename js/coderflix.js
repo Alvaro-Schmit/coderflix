@@ -9,7 +9,7 @@ function cargoContenidoStreaming() {
         dataType: "json",
         success: function(data) {
             contenidoJSON = data
-            $.each(conitenidoJSON, function(i) {
+            $.each(contenidoJSON, function(i) {
                 HTMLCard += ` <div class="col s12 m6 l3">
                 <div class="card z-depth-2">
                     <div class="card-image">
