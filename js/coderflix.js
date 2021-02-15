@@ -24,6 +24,11 @@ function cargoContenidoStreaming() {
             </div>`
             })
             $("#contenido").html(HTMLCard)
+        },
+        error: function() {
+            HTMLCard = `<h4>contenido no disponible :(</h4>`
+            $("#contenido").html(HTMLCard)
+
         }
     })
 
