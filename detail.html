@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TRAILERFLIX</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=no" />
+  <meta name="Description" content="PWA de video streaming">
+  <meta name="theme-color" content="#000000">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Trailerflix">
+  <meta name="apple-mobile-web-app-status-bar-style" content="transluscent">
+  <link rel="apple-touch-icon" sizes="64x64" href="images/trailerflix-64.png">
+  <link rel="apple-touch-icon" sizes="96x96" href="images/trailerflix-96.png">
+  <link rel="apple-touch-icon" sizes="128x128" href="images/trailerflix-128.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/trailerflix-144.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="images/trailerflix-512.png">
+  <link rel="icon" type="image/gif" href="images/trailerflix-64.gif" sizes="64x64">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="manifest" href="manifest.json">
+  <script src="js/materialize.min.js"></script>
+  <script src="js/JQuery-3.5.1.min.js"></script>
+  <script src="js/contentdetail.js"></script>
+</head>
+<body class="black">
+  <div class="navbar-fixed">
+    <nav style="">
+      <div class="nav-wrapper black">
+        <a class="brand-logo logo-navbar right black red-text separa-margen-derecho">TRAILERFLIX</a>
+        <a id="retornar" class="black red-text waves-effect waves-red">VOLVER<i
+            class="material-icons red-text left">arrow_back</i></a>
+      </div>
+    </nav>
+  </div>
+  <div class="center" id="encabezado">
+    <h4 style="" class="white-text">Información de contenido</h4>
+  </div>
+  <div id="contenido" class="row center"> <!-- style=""-->
+    <div class="row center">
+      <div class="col s12 m5 l4 center-align">
+        <img src="./posters/17.jpg" width="200px">
+      </div>
+      <div class="col s12 m7 l8">
+        <table>
+          <tbody class="white-text">
+            <tr>
+              <td class="yellow-text">TÍTULO</td>
+              <td>
+                <h5>Halt and Catch Fire</h5>
+              </td>
+            </tr>
+            <tr>
+              <td class="yellow-text">CATEGORÍA</td>
+              <td>Serie</td>
+            </tr>
+            <tr>
+              <td class="yellow-text">GÉNERO</td>
+              <td>Ficción, Drama, Tecnología</td>
+            </tr>
+            <tr>
+              <td class="yellow-text">RESUMEN</td>
+              <td>Situada en los inicios de la década de 1980, un visionario ficticio, un ingeniero electrónico y una
+                prodigiosa ingeniera, se alían a una programadora de software para confrontar con las corporaciones
+                informáticas dominantes de la época. El Personal de la firma y sus socios de negocio, comenzarán una
+                carrera que cambiará la cultura en el Estado de Texas, cuna de las empresas de tecnología, casi de la
+                misma forma que lo es hoy Silicon Valey.
+                Esta historia ficticia emula el trabajo realizado, en su momento, por la firma Compaq, cuando clonó el
+                BIOS de las Computadoras Personales IBM, dando vida así al económico mercado de los clones. Mostrando
+                también, a lo largo de sus 4 temporadas, el nacimiento de la arquitectura abierta de hardware, los
+                videojuegos online, las salas de chat y de trueque de productos físicos, los BBS, y las primeras nubes
+                computacionales, hasta la llegada de Internet (sin dejar afuera la guerra de los web browsers).</td>
+            </tr>
+            <tr>
+              <td class="yellow-text">TEMPORADAS</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td class="yellow-text">REPARTO</td>
+              <td>
+                <h6>Lee Pace, Scoot McNairy, Mackenzie Davis, Kerry Bishé, Toby Huss, Alana Cavanaugh</h6>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="center" id="trailer">
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pWrioRji60A" frameborder="0"
+        encrypted-media;="" allowfullscreen="true"></iframe>
+    </div>
+  </div>
+</body>
+</html>
